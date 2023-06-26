@@ -80,7 +80,7 @@ Send this to POST <http://127.0.0.1:3000/broken>. Here, you should get an error.
 {
     "definition": {
         "type": "modelAsString",
-        "xmodel": "something",
+        "model": "something",
         "version": "bla"
     }
 }
@@ -93,6 +93,6 @@ The error looks like
     "statusCode": 400,
     "code": "FST_ERR_VALIDATION",
     "error": "Bad Request",
-    "message": "body/definition must have required property 'model', body/definition must have required property 'model', body/definition must match exactly one schema in oneOf, body/definition must match exactly one schema in oneOf"
+    "message": "body/definition/type must be equal to constant, body/definition must have required property 'version', body/definition must match exactly one schema in oneOf, body/definition must match exactly one schema in oneOf"
 }
 ```
