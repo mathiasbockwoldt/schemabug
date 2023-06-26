@@ -1,0 +1,14 @@
+{
+  "name": "schemabug",
+  "version": "1.0.0",
+  "description": "Example of a bug in json schemas with fastify",
+  "main": "example.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mathias Bockwoldt",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.18.0"
+  }
+}
